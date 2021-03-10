@@ -64,12 +64,33 @@ Kenya("Toly")
 Kenya("Garry")
 
 
+#Recap Passing a list as an argument
+def my_function(food):
+    for x in food:
+        print(x)
+fruits = ["apple","banana","cherry"]
+my_function(fruits)
 
-   
-   
-   
-   
-   
-   
-   
-    
+def my_courses(courses):
+    for x in courses:
+        print(x)
+courses = ["SAD","DATA COMMS","OOSAD"]
+my_courses(courses)
+
+#Area of circle
+print("Area of a circle");  
+def area_circle(r): 
+    PI = 3.142
+    return PI * (r*r); 
+#prompt user
+num=float(input("Enter r value:"))
+print("Area is %.6f" % area_circle(num)); 
+
+
+
+
+
+
+
+
+
